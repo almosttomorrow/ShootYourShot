@@ -24,4 +24,5 @@ class AnthropicAPI(LLMAPIInterface):
         response.raise_for_status()
         response_json = response.json()
         print(response_json)  # Print the full response to understand its structure
-        return response_json['completion']  # Adjust based on actual structure
+        # Access the content correctly based on the printed structure
+        return response_json['content'][0]['text']

@@ -7,9 +7,9 @@ Shootyourshot currently only works with Anthropic's API.
 ## Features
 
 - **Multi-Shot Depth Levels**:
-  - **Student**: 3 follow-up shots.
-  - **Consultant**: 5 follow-up shots.
-  - **Professor**: 7 follow-up shots.
+  - **Student**: 3 shots.
+  - **Consultant**: 5 shots.
+  - **Professor**: 7 shots.
 
 - **Chain of Thought Reasoning**: Encourages the model to evaluate and improve its thinking process iteratively.
 

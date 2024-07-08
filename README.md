@@ -49,6 +49,7 @@ Shootyourshot currently only works with Anthropic's API.
     print(result)
 
 ## Multi-Shot Depth Levels
+Each level uses the sequentual prompts below
 
 **Student**:
   1. "Can you walk me through your thought process leading to this conclusion?"

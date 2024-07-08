@@ -1,4 +1,4 @@
-# ShootYourShot
+# ShootYourShot 🧠
 
 ShootYourShot is a Python library designed to orchestrate multi-shot reasoning for LLMs. The library supports three levels of reasoning 'depth' depending on the use-case and resource constraits. 
 

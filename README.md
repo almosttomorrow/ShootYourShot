@@ -71,4 +71,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
-This project utilizes the Anthropics API for LLM interactions. Special thanks to the contributors and the open-source community for their invaluable support and contributions.
+This project utilises the Anthropics API for LLM interactions. Special thanks to the contributors and the open-source community for their invaluable support and contributions.

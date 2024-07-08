@@ -50,19 +50,26 @@ Shootyourshot currently only works with Anthropic's API.
 
 ## Multi-Shot Depth Levels
 
-**Short (Quick) - 1 Follow-Up Shot**:
-  1. "Can you walk me through your thought process leading to this conclusion, ensuring it matches the format requested in the initial prompt?"
-
-**Medium (Reasoned) - 2 Follow-Up Shots**:
+**Student**:
   1. "Can you walk me through your thought process leading to this conclusion?"
-  2. "What assumptions have you made in your reasoning, and how valid are they? Please ensure the final answer matches the format requested in the initial prompt."
+  2. "I want you to interrogate each idea and think off all the reasons why you could be wrong, and all of the unconventional ideas you've missed. Think outside of the box."
+  3. "Now think through this again, consolodate, and summarise all your thoughts into your key findings even if they are unconventional."
 
-**Long (Well Thought Out) - 5 Follow-Up Shots**:
+**Consultant**:
+  1.  "Can you walk me through your thought process leading to this conclusion?"
+  2.  "What assumptions have you made in your reasoning, and how valid are they?"
+  3.  "Are there any potential counterarguments or weaknesses in this reasoning?"
+  4.  "Now perform a SQCA analysis; situation, question, complication, answer"
+  5.  "Summarise your key thoughts making sure your answer is MECE; mutually exclusive, collectively exhaustive. Make it concise."
+
+**Professor**:
   1. "Can you walk me through your thought process leading to this conclusion?"
   2. "What assumptions have you made in your reasoning, and how valid are they?"
   3. "Are there any potential counterarguments or weaknesses in this reasoning?"
   4. "What are the broader implications of this reasoning if it holds true?"
-  5. "Based on this analysis, what is the most robust conclusion you can draw, ensuring it matches the format requested in the initial prompt?"
+  5. "Write an analytical essay on your key arguements."
+  6. "Write an essay arguing in opposition of your initial essay."
+  7. "Review your analysis. What is the most robust conclusion you can draw?"
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.

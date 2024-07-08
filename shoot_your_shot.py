@@ -28,7 +28,7 @@ class ShootYourShot:
                 "What assumptions have you made in your reasoning, and how valid are they?",
                 "Are there any potential counterarguments or weaknesses in this reasoning?",
                 "What are the broader implications of this reasoning if it holds true?",
-                "Write an analytical essay on your key arguements.",
+                "Write an analytical essay on your key arguments.",
                 "Write an essay arguing in opposition of your initial essay.",
                 "Review your analysis. What is the most robust conclusion you can draw?"
             ]

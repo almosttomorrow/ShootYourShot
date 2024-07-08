@@ -26,7 +26,7 @@ Shootyourshot currently only works with Anthropic's API.
    
 ## Usage
 
-    ```sh
+    
     from shootyourshot import ShootYourShot, AnthropicAPI
     
     # Define the LLM API key and model parameters

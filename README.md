@@ -67,7 +67,7 @@ Shootyourshot currently only works with Anthropic's API.
   2. "What assumptions have you made in your reasoning, and how valid are they?"
   3. "Are there any potential counterarguments or weaknesses in this reasoning?"
   4. "What are the broader implications of this reasoning if it holds true?"
-  5. "Write an analytical essay on your key arguements."
+  5. "Write an analytical essay on your key arguments."
   6. "Write an essay arguing in opposition of your initial essay."
   7. "Review your analysis. What is the most robust conclusion you can draw?"
 

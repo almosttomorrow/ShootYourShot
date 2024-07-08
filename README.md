@@ -72,4 +72,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgements
 This project utilises the Anthropics API for LLM interactions. Special thanks to the contributors and the open-source community for their invaluable support and contributions.
-.

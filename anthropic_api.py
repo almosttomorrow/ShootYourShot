@@ -22,5 +22,6 @@ class AnthropicAPI(LLMAPIInterface):
         }
         response = requests.post(self.endpoint, headers=self.headers, json=data)
         response.raise_for_status()
-        print(response.json())  # Print the full response
-        return response.json()["completion"]  # Adjust based on actual structure
+        response_json = response.json()
+        print(response_json)  # Print the full response to understand its structure
+        return response_json['completion']  # Adjust based on actual structure

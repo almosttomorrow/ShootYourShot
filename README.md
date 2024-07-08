@@ -54,12 +54,12 @@ Shootyourshot currently only works with Anthropic's API.
   1. "Can you walk me through your thought process leading to this conclusion, ensuring it matches the format requested in the initial prompt?"
 
 **Medium (Reasoned) - 2 Follow-Up Shots**:
-  1. "Can you walk me through your thought process leading to this conclusion, ensuring it matches the format requested in the initial prompt?"
+  1. "Can you walk me through your thought process leading to this conclusion?"
   2. "What assumptions have you made in your reasoning, and how valid are they? Please ensure the final answer matches the format requested in the initial prompt."
 
 **Long (Well Thought Out) - 5 Follow-Up Shots**:
-  1. "Can you walk me through your thought process leading to this conclusion, ensuring it matches the format requested in the initial prompt?"
-  2. "What assumptions have you made in your reasoning, and how valid are they? Please ensure the final answer matches the format requested in the initial prompt."
+  1. "Can you walk me through your thought process leading to this conclusion?"
+  2. "What assumptions have you made in your reasoning, and how valid are they?"
   3. "Are there any potential counterarguments or weaknesses in this reasoning?"
   4. "What are the broader implications of this reasoning if it holds true?"
   5. "Based on this analysis, what is the most robust conclusion you can draw, ensuring it matches the format requested in the initial prompt?"

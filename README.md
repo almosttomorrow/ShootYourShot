@@ -44,7 +44,7 @@ Shootyourshot currently only works with Anthropic's API.
     initial_prompt = "What are the benefits of renewable energy?"
       
     # Generate the multi-shot response
-    depth = 'long'  # Can be 'short', 'medium', or 'long'
+    depth = 'long'  # Can be 'student', 'consultant', or 'professor'
     result = shoot_your_shot.generate_response(initial_prompt, depth)
     print(result)
 

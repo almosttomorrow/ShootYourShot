@@ -52,7 +52,7 @@ Shootyourshot currently only works with Anthropic's API.
     result = shoot_your_shot.generate_response(initial_prompt, depth)
     print(result)
 
-## Multi-Shot Depth Levels
+## Multi-Turn Depth Levels
 Each level uses the sequentual prompts below:
 
 **Student**:

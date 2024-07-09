@@ -1,6 +1,6 @@
 # ShootYourShot 🧠
 
-ShootYourShot is a Python library designed to orchestrate multi-shot reasoning for LLMs. The library supports three levels of reasoning 'depth' depending on the use-case and resource constraits. 
+ShootYourShot is a Python library designed to orchestrate multi-shot, multi-turn & Chain of Thought reasoning for LLMs. The library supports three levels of reasoning 'depth' depending on the use-case and resource constraits.
 
 Shootyourshot currently only works with Anthropic's API.
 
@@ -11,7 +11,9 @@ Shootyourshot currently only works with Anthropic's API.
   - **Consultant**: 5 shots.
   - **Professor**: 7 shots.
 
-- **Chain of Thought Reasoning**: Encourages the model to evaluate and improve its thinking process iteratively.
+- **Multi-Shot Reasoning**: Providing multiple examples (or shots) within a single prompt to guide the model.
+- **Multi-turn Reasoning**: Building context and detail through a sequence of conversational prompts & responses.
+- **Chain of Thought Reasoning**: Describing intermediate reasoning steps to break down and solve complex tasks in a single prompt.
 
 ## Installation
 
